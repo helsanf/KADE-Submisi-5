@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_marginTop="10dp"
+        android:layout_margin="5dp"
+        app:cardCornerRadius="9dp"
+        app:cardElevation="3dp"
+>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            android:layout_margin="5dp">
+        <TextView
+                android:text="@string/no"
+                android:id="@+id/nomorKlasemen"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"/>
+        <TextView
+                android:text="@string/nama_club"
+                android:id="@+id/nameClub"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        <TextView
+                android:text="@string/played"
+                android:id="@+id/playedClub"
+                android:layout_marginStart="8dp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"/>
+        <TextView
+                android:text="@string/gf"
+                android:id="@+id/gfClub"
+
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"/>
+        <TextView
+                android:text="@string/ga"
+                android:id="@+id/gaClub"
+
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"/>
+        <TextView
+                android:text="@string/gd"
+                android:id="@+id/gdClub"
+
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"/>
+        <TextView
+                android:text="@string/pts"
+                android:id="@+id/ptsClub"
+
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
